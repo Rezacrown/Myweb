@@ -1,8 +1,13 @@
-const btnnav = document.getElementById('btnnav')
-const navmenu = document.getElementById('navmenu')
+let hamburger = document.getElementById('hamburger');
+let navmobile = document.getElementById('navmobile');
 
-btnnav.addEventListener('click', function(){
 
-    navmenu.classList.toggle('hidden')
 
+hamburger,addEventListener('click', function(){
+
+    navmobile.classList.toggle('translate-x-[100vw]')
+    navmobile.classList.toggle('opacity-100')
 })
+
+
+
